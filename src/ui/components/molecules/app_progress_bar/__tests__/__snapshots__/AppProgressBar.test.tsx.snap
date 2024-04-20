@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    animated={true}
+    animationConfig={
+      {
+        "bounciness": 0,
+      }
+    }
+    animationType="timing"
+    indeterminate={false}
+    indeterminateAnimationDuration={1000}
+    onLayout={[Function]}
+    progress={0.25}
+    style={
+      [
+        {
+          "backgroundColor": "#6E7582",
+          "borderColor": "#131F30",
+          "borderRadius": 50,
+          "borderWidth": 0,
+          "overflow": "hidden",
+          "width": null,
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "#131F30",
+          "height": 20,
+          "transform": [
+            {
+              "translateX": -0,
+            },
+            {
+              "translateX": -0,
+            },
+            {
+              "scaleX": 0.250075,
+            },
+          ],
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "paddingTop": 5,
+      }
+    }
+    testID="bottom-view"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "fontFamily": "ProximaNova-Regular",
+          },
+          {
+            "color": "#131F30",
+            "fontSize": 27,
+          },
+          {
+            "lineHeight": 35,
+          },
+          [
+            {
+              "fontSize": 25,
+              "fontWeight": "400",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Complete profile & questionnaire: 
+    </Text>
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "fontFamily": "ProximaNova-Regular",
+          },
+          {
+            "color": "#131F30",
+            "fontSize": 27,
+          },
+          {
+            "lineHeight": 35,
+          },
+          [
+            {
+              "fontSize": 25,
+              "fontWeight": "400",
+            },
+            {
+              "fontWeight": "700",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      25%
+    </Text>
+  </View>
+</View>
+`;

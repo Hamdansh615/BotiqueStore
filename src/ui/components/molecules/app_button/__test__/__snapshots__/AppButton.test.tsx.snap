@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#3b82f6",
+      "borderRadius": 25,
+      "elevation": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "maxHeight": 55,
+      "minHeight": 44,
+      "opacity": 1,
+      "shadowColor": "#FFFFFF",
+      "shadowOffset": {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.15,
+      "shadowRadius": 3,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 8,
+      }
+    }
+    testID="button-container"
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          {
+            "flex": 1,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "fontFamily": "ProximaNova-Regular",
+            },
+            {
+              "color": "#131F30",
+              "fontSize": 27,
+            },
+            {
+              "lineHeight": 42,
+            },
+            [
+              {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "overflow": "hidden",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;

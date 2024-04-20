@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing 1`] = `
+<View
+  testID="SPANNABLE_TEXT"
+>
+  <Text
+    numberOfLines={0}
+  >
+    <Text
+      style={
+        {
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Male
+    </Text>
+    <Text
+      style={
+        {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Female
+    </Text>
+    <Text
+      style={
+        {
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Others
+    </Text>
+  </Text>
+</View>
+`;

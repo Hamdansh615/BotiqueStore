@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing 1`] = `
+<View
+  style={
+    [
+      undefined,
+      {
+        "alignItems": "center",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "height": 40,
+        "justifyContent": "center",
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#131F30",
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    numberOfLines={1}
+    onChangeText={[Function]}
+    placeholder="Enter text"
+    placeholderTextColor="#6E7582"
+    style={
+      [
+        {
+          "flex": 1,
+          "fontFamily": "ProximaNova-Regular",
+          "fontSize": 22,
+          "paddingRight": 8,
+        },
+        {
+          "color": "#131F30",
+        },
+      ]
+    }
+    testID="SEARCH"
+    value=""
+  />
+</View>
+`;

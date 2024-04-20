@@ -1,0 +1,7 @@
+{
+  "name": "ui",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/react-native-version-check": "^3.4.6"
+  }
+}

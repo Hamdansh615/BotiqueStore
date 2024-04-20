@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering... renders correctly 1`] = `
+<View
+  style={
+    {
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "fontFamily": "ProximaNova-Semibold",
+          },
+          {
+            "color": "#131F30",
+            "fontSize": 27,
+          },
+          {
+            "lineHeight": 28,
+          },
+          [
+            {
+              "fontSize": 22,
+              "marginBottom": 10,
+            },
+            {
+              "color": "#3b82f6",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      EMAIL
+    </Text>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "stretch",
+          "borderRadius": 6,
+          "borderStyle": "solid",
+          "color": "#000000",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        [
+          {
+            "height": 73,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      editable={true}
+      keyboardType="email-address"
+      multiline={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Enter your email address"
+      placeholderTextColor="#1e3a8a"
+      secureTextEntry={false}
+      style={
+        [
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "ProximaNova-Regular",
+            "fontSize": 25,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+          },
+          undefined,
+          {},
+        ]
+      }
+      testID="emailField"
+      textAlignVertical="center"
+      textContentType="emailAddress"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "padding": 8,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "fontFamily": "ProximaNova-Semibold",
+          },
+          {
+            "color": "#131F30",
+            "fontSize": 27,
+          },
+          {
+            "lineHeight": 28,
+          },
+          [
+            {
+              "fontSize": 22,
+              "marginBottom": 10,
+            },
+            {
+              "color": "#3b82f6",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      PASSWORD
+    </Text>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "stretch",
+          "borderRadius": 6,
+          "borderStyle": "solid",
+          "color": "#000000",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        [
+          {
+            "height": 73,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      editable={true}
+      multiline={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Enter your password"
+      placeholderTextColor="#1e3a8a"
+      secureTextEntry={true}
+      style={
+        [
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "ProximaNova-Regular",
+            "fontSize": 25,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+          },
+          undefined,
+          {},
+        ]
+      }
+      testID="passwordField"
+      textAlignVertical="center"
+      textContentType="password"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "padding": 8,
+      }
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#3b82f6",
+        "borderRadius": 25,
+        "elevation": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "maxHeight": 55,
+        "minHeight": 44,
+        "opacity": 1,
+        "shadowColor": "#FFFFFF",
+        "shadowOffset": {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 0.15,
+        "shadowRadius": 3,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "padding": 8,
+        }
+      }
+      testID="button-container"
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+            {
+              "flex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "fontFamily": "ProximaNova-Regular",
+              },
+              {
+                "color": "#131F30",
+                "fontSize": 27,
+              },
+              {
+                "lineHeight": 42,
+              },
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 28,
+                  "overflow": "hidden",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Submit
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
